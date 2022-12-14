@@ -7,9 +7,11 @@
 
 import Foundation
 import Network
+import SwiftUI
 
 class AppState: ObservableObject {
     @Published var isOffline: Bool = true
+    @AppStorage("tab") var selectedTab = 0
 
     init() {
         setupInternetMonitoring()

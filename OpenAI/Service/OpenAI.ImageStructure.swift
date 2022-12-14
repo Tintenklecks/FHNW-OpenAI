@@ -9,8 +9,10 @@ import Foundation
 
 // MARK: - REQUEST STRUCTURES -
 struct ChatBotRequest: Codable {
-    let input: String
     let model: String
+    let prompt: String
+    var max_tokens = 2048
+    var temperature = 1.0
 }
 
 // MARK: - REQUEST STRUCTURES Moderation -

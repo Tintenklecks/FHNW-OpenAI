@@ -13,10 +13,9 @@ extension ChatBotView {
     }
     
     class Model {
-        let model = Model()
         
         func send(message: String, completionHandler: @escaping (Result<String, Error>) -> Void) {
-            let requestStructure = ChatBotRequest(input: message, model: "text-davinci-003")
+            let requestStructure = ChatBotRequest(model: "text-davinci-003", prompt: message)
             
             OpenAI.chatBot.fetchData(with: requestStructure, convertTo: ChatbotResult.self) { result in
                 

@@ -72,6 +72,7 @@ enum OpenAI: String {
         completionHandler: @escaping (Result<T, NetworkError>) -> Void)
     {
         let request = request(for: parameter)
+        
         URLSession.shared.dataTask(with: request) { data, response, error in
             if let response = response as? HTTPURLResponse {
                 if response.statusCode >= 300 {

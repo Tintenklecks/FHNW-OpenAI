@@ -37,7 +37,9 @@ struct AIImageView: View {
                         .bold()
                     TextField("Enter description to generate an image from", text: $viewModel.prompt, axis: .vertical)
                         .textFieldStyle(.roundedBorder)
-
+                        .onSubmit {
+                            viewModel.renderImage()
+                        }
                     HStack {
                         Text("Picture size:")
                             .bold()

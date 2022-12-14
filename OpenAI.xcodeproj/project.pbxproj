@@ -41,6 +41,7 @@
 		AAA53B1F29467E2700604FCA /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		AAA53B212947435100604FCA /* OpenAPI.Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAPI.Service.swift; sourceTree = "<group>"; };
 		AAA53B232947C32C00604FCA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AAA66332294A079B00033973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AAE9E04A2948AC6200751785 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		AAE9E04E2948CDC600751785 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +86,7 @@
 		AAA53B082946753200604FCA /* OpenAI */ = {
 			isa = PBXGroup;
 			children = (
+				AAA66332294A079B00033973 /* Info.plist */,
 				AAA53B092946753200604FCA /* OpenAIApp.swift */,
 				AAE9E04E2948CDC600751785 /* AppState.swift */,
 				AA46211D2949DA2500EAADCB /* MainView.swift */,
@@ -358,6 +360,7 @@
 				DEVELOPMENT_TEAM = KT43342F9W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenAI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -387,6 +390,7 @@
 				DEVELOPMENT_TEAM = KT43342F9W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenAI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
